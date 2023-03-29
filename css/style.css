@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@100;500&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body{
+	font-family: 'Lora', serif;
+	font-size : 18px;
+	margin: 0px;
+	background-image: url("https://img.freepik.com/free-photo/abstract-pastel-blue-paint-brushstroke-textured-background_53876-108403.jpg?w=2000&t=st=1679749267~exp=1679749867~hmac=b12b6015db55522d2d6e761ab53003b5b45ee50fd42669ab9aa1f0fa7417fe51");
+	background-size: cover;
+	background-position: center;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold; 
+	text-align: center;
+}
+
+a {
+  text-decoration: none; /* supprime le soulignement des liens */
+  color: #333; /* définit la couleur du texte */
+  padding: 10px; /* ajoute un peu d'espace autour du lien */
+  border-radius: 5px; /* ajoute des coins arrondis */
+  background-color: #f2f2f2; /* définit la couleur de fond */
+}
+
+a:hover {
+  background-color: #ddd; /* définit la couleur de fond lorsqu'on survole le lien */
+}
+
+.head ul {
+  list-style: none; /* supprime la puce par défaut */
+  margin: 70px;
+  padding: 0;
+}
+
+.head li {
+  display: inline-block; /* affiche les éléments sur une ligne */
+  margin: 0 10px; /* ajoute une marge entre les éléments */
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+
+#btn-1 {
+	margin-right: 310px;
+}
+#btn-2 {
+	margin-right: 120px;
+}
+
+#btn-2 {
+	margin-left: 120px;
+}
+
+.services ul {
+  list-style: none; /* supprime la puce par défaut */
+  margin: 0;
+  padding: 0;
+}
+
+.services li {
+	list-style: none;
+  	margin-bottom: 10px; /* ajoute une marge en bas pour séparer les éléments de la liste */
+  	padding-left: 20px; /* ajoute un peu de marge à gauche pour afficher les puces */
+  	position: relative; /* définit une position relative pour les éléments de la liste */
+}
+
+.services li:before {
+  content: "\2022"; /* ajoute une puce avant chaque élément de la liste */
+  position: absolute; /* définit une position absolue pour la puce */
+  left: 0; /* place la puce tout à gauche */
+  color: #333; /* définit la couleur de la puce */
+}

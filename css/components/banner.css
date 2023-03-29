@@ -1,0 +1,30 @@
+.banner{
+	background-image: linear-gradient(116deg, rgba(0,0,0,0.4)0%, rgba(0,0,0,0.2)50%), url(../../images/food.jpg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	position: absolute;
+  	top: 80px;
+ 	left: 50px;
+}
+
+
+.banner	h1 {
+	font-size: 60px;
+	font-weight: bold;
+
+}
+
+.banner	h2 {
+	font-size: 30px;
+	font-weight: border;
+	opacity: 0.8;
+	margin-bottom: 40px;
+}
+
+
+
